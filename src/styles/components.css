@@ -16,6 +16,8 @@ h2{
   background-color: var(--color-surface);
 }
 
+
+
 /*===================== Sidebar =====================*/
 .sidebar{
   display: flex;
@@ -24,8 +26,12 @@ h2{
   padding: var(--space-3) var(--space-4);
   box-sizing: border-box;
   flex-direction: column;
+  text-align: center;
 }
 
+.navHeader:hover{
+  cursor: pointer;
+}
 .navButton{
   margin: 10px 0px;
   padding: 6px 0px;
