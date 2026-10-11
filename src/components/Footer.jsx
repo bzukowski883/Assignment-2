@@ -9,6 +9,7 @@ export default function Footer(){
 
     return(
         <div className="footer">
+            <div>© {new Date().getFullYear()} Proton. All rights reserved.</div>
             <div>Version: {pkg.version}</div>
             <div>Connection: Good {Dot} </div>
         </div>
