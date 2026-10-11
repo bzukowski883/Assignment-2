@@ -50,5 +50,10 @@ h2{
 
 /*===================== Footer =====================*/
 .footer{
-  text-align: right; 
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.footer div{
+  padding-left: 15px;
 }
