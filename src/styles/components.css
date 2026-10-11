@@ -1,0 +1,54 @@
+@import './tokens.css';
+
+
+/*===================== Elements =====================*/
+
+h2{
+  font-size: var(--text-lg);
+}
+
+/*===================== Header =====================*/
+
+.header {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--color-surface);
+}
+
+/*===================== Sidebar =====================*/
+.sidebar{
+  display: flex;
+  width: 100%;
+  font: var(--font-display);
+  padding: var(--space-3) var(--space-4);
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.navButton{
+  margin: 10px 0px;
+  padding: 6px 0px;
+  background-color: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-sm);
+}
+
+.navButton:hover{
+  background-color: var(--color-bg);
+}
+
+.navButton:active{
+  background-color: var(--color-border);
+}
+
+.navHeader{
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--color-border);
+}
+
+/*===================== Footer =====================*/
+.footer{
+  text-align: right; 
+}
